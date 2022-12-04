@@ -3,15 +3,81 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   </head>
+ 
+ 
   <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-    </main>
-	<!-- <script src="index.js"></script> -->
-  </body>
+    <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="myWeek9.html">Fifth Element</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="myWeek9.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myCabinet.html">My Cabinet</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Classes
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Yoga</a>
+              <a class="dropdown-item" href="#">Meditations</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Schedule a Class</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Instructor</th>
+          <th scope="col">Class</th>
+          <th scope="col">Day</th>
+          <th scope="col">Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Scarlett O'Hara</th>
+          <td>Confidence Meditation</td>
+          <td>Thursday, Friday</td>
+          <td>9am, 2pm, 8pm</td>
+        </tr>
+        <tr>
+          <th scope="row">Jackie Chan</th>
+          <td>Rush Hour Yoga</td>
+          <td>Monday, Wednesday</td>
+          <td>12pm, 5pm</td>
+        </tr>
+        <tr>
+          <th scope="row">Sherlock Holmes</th>
+          <td>Meditation: Method of Deductive Thinking</td>
+          <td>Thursday</td>
+          <td>1pm, 3pm, 6pm, 10pm</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </div>
+    </body>
+
 </html>
